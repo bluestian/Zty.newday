@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Newday</string>
+
+    <string name="activity_NearbyButton">附近</string>
+    <string name="activity_InformationButton">消息</string>
+    <string name="activity_ContactButton">联系人</string>
+    <string name="activity_GiftButton">礼物</string>
+    <string name="activity_PersonageButton">个人</string>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+               android:padding="@dimen/personage_resisterlog_padd"
+    >
+    <EditText
+        android:id="@+id/logIn_et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_register_layout_height"
+        android:background="@drawable/register_diagstly"
+
+        android:hint="手机号码或邮箱"
+        />
+    <EditText
+        android:id="@+id/logIn_et_putpassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_register_layout_height"
+        android:background="@drawable/register_diagstly"
+        android:layout_marginTop="@dimen/fragment_register_margin"
+        android:hint="密码"
+
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_register_layout_height"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/logIn_et_authcode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@drawable/register_diagstly_two"
+            android:layout_marginRight="@dimen/fragment_register_margin"
+            android:hint="验证码"
+            />
+        <ImageView
+            android:id="@+id/logIn_iv_authcode"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/bt_register_personage"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="@dimen/fragment_register_margin"
+        android:background="@color/colorPicthBlack"
+        />
+    <TextView
+        android:id="@+id/logIn_tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="@dimen/fragment_register_margin"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorYellow"
+        android:text="登录"/>
+</LinearLayout>

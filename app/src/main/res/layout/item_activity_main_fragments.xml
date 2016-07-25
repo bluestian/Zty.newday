@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RadioGroup
+        android:id="@+id/rg_rg_radio"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_fragment_dimen"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_padding"
+       android:layout_alignParentBottom="true">
+    <RadioButton
+        android:id="@+id/btn_rg_nearby"
+        android:layout_width="@dimen/dimen_Currency_width"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:button="@null"
+        android:gravity="center"
+         android:textColor="@color/btn_tab_text_color"
+        android:text="@string/activity_NearbyButton"/>
+        <RadioButton
+            android:id="@+id/btn_fg_information"
+            android:layout_width="@dimen/dimen_Currency_width"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@color/btn_tab_text_color"
+            android:text="@string/activity_InformationButton"/>
+        <RadioButton
+            android:id="@+id/btn_fg_contact"
+            android:layout_width="@dimen/dimen_Currency_width"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@color/btn_tab_text_color"
+            android:text="@string/activity_ContactButton"/>
+        <RadioButton
+            android:id="@+id/btn_rg_gift"
+            android:layout_width="@dimen/dimen_Currency_width"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@color/btn_tab_text_color"
+            android:text="@string/activity_GiftButton"/>
+        <RadioButton
+            android:id="@+id/btn_fg_personage"
+            android:layout_width="@dimen/dimen_Currency_width"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:gravity="center"
+            android:textColor="@color/btn_tab_text_color"
+            android:text="@string/activity_PersonageButton"/>
+
+
+
+    </RadioGroup>
+</RelativeLayout>

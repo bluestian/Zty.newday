@@ -1,0 +1,12 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_fragment_dimen">50dp</dimen>
+    <dimen name="dimen_padding">2dp</dimen>
+    <dimen name="dimen_Currency_width">0dp</dimen>
+    <dimen name="fragment_register_layout_height">48dp</dimen>
+    <dimen name="fragment_register_margin">10dp</dimen>
+    <dimen name="personage_resisterlog_padd">6dp</dimen>
+
+</resources>
